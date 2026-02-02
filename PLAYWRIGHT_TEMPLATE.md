@@ -827,9 +827,3 @@ config = CrawlerConfig(
     accept_language="zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7",
 )
 ```
-
----
-
-## 라이선스
-
-MIT License
