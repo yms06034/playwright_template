@@ -795,7 +795,7 @@ config = CrawlerConfig(block_images=False)
 
 ## 언어/지역 설정
 
-### 영어 (미국)
+### 영어
 
 ```python
 config = CrawlerConfig(
@@ -806,7 +806,18 @@ config = CrawlerConfig(
 )
 ```
 
-### 일본어
+### 한국어
+```python
+config = CrawlerConfig(
+    locale="ko-KR",
+    timezone="Asia/Seoul",
+    languages=["ko-KR", "ko", "en-US", "en"],
+    accept_language="ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7"
+)
+
+```
+
+### 일본어 
 
 ```python
 config = CrawlerConfig(
